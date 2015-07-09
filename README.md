@@ -1,7 +1,7 @@
 # Symfony2 Redis Session Handler
-[![Build Status](https://travis-ci.org/jrschumacher/symfony-redis-session-handler.png)](https://travis-ci.org/jrschumacher/symfony-redis-session-handler)
+[![Build Status](https://travis-ci.org/pilat/symfony-redis-session-handler.png)](https://travis-ci.org/pilat/symfony-redis-session-handler)
 
-This is a [fork of Baachi's work](https://github.com/Baachi/symfony/blob/redis-session-storage/src/Symfony/Component/HttpFoundation/Session/Storage/Handler/RedisSessionHandler.php)
+This fork adds Predis support
 
 ## Use
 

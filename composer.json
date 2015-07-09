@@ -1,8 +1,8 @@
 {
-  "name": "jrschumacher/symfony-redis-session-handler",
+  "name": "pilat/symfony-redis-session-handler",
   "type": "library",
   "description": "Redis Session Handler Symfony HttpFoundation Component",
-  "keywords": ["symfony", "session", "redis"],
+  "keywords": ["symfony", "session", "redis", "predis"],
   "homepage": "http://symfony.com",
   "license": "MIT",
   "authors": [
@@ -13,10 +13,15 @@
       {
           "name": "Ryan Schumacher",
           "email": "ryan@38pages.com"
+      },
+      {
+          "name": "Vladimir Urushev",
+          "email": "urushev@yandex.ru"
       }
   ],
   "require": {
       "symfony/http-foundation": ">=1.0",
+      "predis/predis": "~1.0",
       "ext-redis": "*"
   },
   "autoload": {
